@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Driving Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scene">
+  <div class="sun"></div>
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+  <div class="grass"></div>
+  <div class="road"></div>
+  <div class="car" id="car"></div>
+  <div class="smoke" id="smoke"></div>
+</div>
+
+<div class="container">
+  <h1>Driving Simulator</h1>
+  <input type="number" id="distance" placeholder="Distance (km)">
+  <input type="number" id="urgency" placeholder="Urgency (1-10)">
+  <button id="calculateBtn">Get Results</button>
+  
+  <div class="results" id="results"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
